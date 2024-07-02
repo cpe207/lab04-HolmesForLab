@@ -1,6 +1,9 @@
-function typeChecker(a, b) {
-  /* Your code here */
+function typeChecker(a , b) {
+  if(typeof a && typeof b == 'text') return "I LOVE YOU";
+  else if(typeof a && typeof b == 'number') return a+b;
+  else return "NOT MATCHED";
 }
+
 
 //Test cases
 const a1 = "Jack";
